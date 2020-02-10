@@ -1,0 +1,88 @@
+html {
+    background-image: url("https://images.designtrends.com/wp-content/uploads/2016/05/08052621/A-Dreamy-World-Wallpaper-Desktop-Backgrounds.jpg?width=600");
+    background-size: cover;
+    color: #d0fcff;
+    font-family: 'Tillana', cursive;
+}
+
+.header {
+    margin: 3% auto;
+    padding: 1%;
+    width: 75%;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 0 auto 3%;
+    text-align: center;
+    font-size: 3rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+input {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    margin: 1%;
+    border-radius: 10px;
+    background: black;
+    color: #d0fcff;
+}
+
+button {
+    font-size: 1.1rem;
+    line-height: 1.75;
+    padding: 1%;
+    border-radius: 10px;
+    background: black;
+    color: #d0fcff;
+}
+
+.clear-button {
+    margin: 1% auto;
+    padding: .75%;
+    width: 20%;
+}
+
+.clear-button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.todo-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2%;
+}
+
+.item-completed {
+    text-decoration: line-through;
+    width: 25%;
+    margin: 1%;
+    text-align: center;
+    font-size: 2rem;
+    background: rgba(34, 34, 34, 0.75);
+    color: #d0fcff;
+    border-radius: 10px;
+}
+
+.item {
+    width: 25%;
+
+    margin: 1%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.75);
+    color: #d0fcff;
+    border-radius: 10px;
+}
